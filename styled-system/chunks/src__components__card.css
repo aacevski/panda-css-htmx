@@ -1,0 +1,98 @@
+@layer utilities {
+
+  .shadow_md {
+    box-shadow: var(--shadows-md)
+    }
+
+  .d_flex {
+    display: flex
+    }
+
+  .rounded_md {
+    border-radius: var(--radii-md)
+    }
+
+  .rounded_sm {
+    border-radius: var(--radii-sm)
+    }
+
+  .rounded_40px {
+    border-radius: 40px
+    }
+
+  .rounded_3xl {
+    border-radius: var(--radii-3xl)
+    }
+
+  .rounded_2xl {
+    border-radius: var(--radii-2xl)
+    }
+
+  .bg_\#FFF {
+    background: #FFF
+    }
+
+  .w_312 {
+    width: 312px
+    }
+
+  .h_280 {
+    height: 280px
+    }
+
+  .w_312px {
+    width: 312px
+    }
+
+  .bg_red {
+    background: red
+    }
+
+  .bg_white {
+    background: var(--colors-white)
+    }
+
+  .text_secondary {
+    color: secondary
+    }
+
+  .text_d76d77 {
+    color: d76d77
+    }
+
+  .fs_xl {
+    font-size: var(--font-sizes-xl)
+    }
+
+  .text_red {
+    color: red
+    }
+
+  .text_blue {
+    color: blue
+    }
+
+  .text_primary {
+    color: primary
+    }
+
+  .fs_md {
+    font-size: var(--font-sizes-md)
+    }
+
+  .font_bold {
+    font-weight: var(--font-weights-bold)
+    }
+
+  .m_auto {
+    margin: auto
+    }
+
+  .text_\#d76d77 {
+    color: #d76d77
+    }
+
+  .text_\#3a1c71 {
+    color: #3a1c71
+    }
+}

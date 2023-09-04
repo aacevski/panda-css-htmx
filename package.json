@@ -1,0 +1,24 @@
+{
+  "name": "panda-htmx",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen",
+    "css:dev": "panda --watch",
+    "dev": "concurrently \"bun run --watch src/index.tsx\" \"bun run css:dev\""
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.13.1",
+    "bun-types": "latest",
+    "concurrently": "^8.2.1",
+    "postcss": "^8.4.29",
+    "typed-html": "^3.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.6.0",
+    "elysia": "^0.6.17"
+  }
+}

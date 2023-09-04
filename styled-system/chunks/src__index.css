@@ -1,0 +1,38 @@
+@layer utilities {
+
+  .font_Poppins\,_sans-serif {
+    font-family: Poppins, sans-serif
+    }
+
+  .m_0 {
+    margin: var(--spacing-0)
+    }
+
+  .justify_center {
+    justify-content: center
+    }
+
+  .items_center {
+    align-items: center
+    }
+
+  .h_100vh {
+    height: 100vh
+    }
+
+  .d_flex {
+    display: flex
+    }
+
+  .bg_linear-gradient\(to_right\,_\#3a1c71\,_\#d76d77\,_\#ffaf7b\) {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)
+    }
+
+  .bg_linear-gradient\(to_right\,_\#d9a7c7\,_\#fffcdc\) {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc)
+    }
+
+  .bg_linear-gradient\(119deg\,_\#296587_5\.88\%\,_\#1B4156_98\.75\%\) {
+    background: linear-gradient(119deg, #296587 5.88%, #1B4156 98.75%)
+    }
+}
