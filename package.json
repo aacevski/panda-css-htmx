@@ -1,5 +1,5 @@
 {
-  "name": "panda-htmx",
+  "name": "panda-css-htmx",
   "module": "index.ts",
   "type": "module",
   "scripts": {
